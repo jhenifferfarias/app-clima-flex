@@ -39,7 +39,7 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 0 15px;
+    padding: 80px 0 35px;
 }
 
 .iphone-container .iphone-header svg {
@@ -98,7 +98,7 @@ body, html {
 .iphone-container .weather-footer {
     display: flex;
     justify-content: space-between;
-    padding: 70px 0 0;
+    padding: 50px 0 0;
     }
 
 .iphone-container .iphone-notch {
