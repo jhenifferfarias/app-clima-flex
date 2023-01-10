@@ -6,9 +6,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather</title>
+    <title>Previsão do tempo</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
+    <div class="iphone-container">
+        <div class="iphone-top"></div>
+        <div class="iphone-header">
+            <i data-feather="cloud"></i>
+            <h2>PARTLY CLOUDY</h2>
+            <p>STOCKHOLM, SWE</p>
+            <h1>24°</h1>
+        </div>
+
+    <div class="iphone-week-weather">
+        <div class="iphone-temperature">
+            <span class="weekday">WED</span>
+            <i data-feather="sun"></i>
+            <p class="temperature">24°</p>
+        </div>
+        <div class="iphone-temperature">
+            <span class="weekday">THU</span>
+            <i data-feather="cloud-lightning"></i>
+            <p class="temperature">23°</p>
+        </div>
+        <div class="iphone-temperature">
+            <span class="weekday">FRI</span>
+            <i data-feather="cloud-rain"></i>
+            <p class="temperature">18°</p>
+        </div>
+        <div class="iphone-temperature">
+            <span class="weekday">SAT</span>
+            <i data-feather="cloud-drizzle"></i>
+            <p class="temperature">17°</p>
+        </div>
+        <div class="iphone-temperature">
+            <span class="weekday">SUN</span>
+            <i data-feather="cloud"></i>
+            <p class="temperature">15°</p>
+        </div>
+    </div>
+
+    <div class="weather-footer">
+        <i data-feather="sunrise"></i>
+        <i data-feather="wind"></i>
+        <i data-feather="sunset"></i>
+    </div>
+
+        <div class="iphone-notch"></div>
+    </div>
     
+
+
+    <script>
+        feather.replace()
+    </script>
 </body>
 </html>

@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --dark: #303030;
+    --dark-letter: #1d1d1d;
+    --light: #f4f5ee;
+}
+
+.iphone-container {
+    border: 15px solid #000;
+    border-radius: 40px;
+    width: 300px;
+    height: 550px;
+    margin: 25px auto;
+    background-color: var(--light);
+    position: relative;
+    padding: 0 10px;
+}
+
+.iphone-container .iphone-top {
+    background-color: #000;
+    width: 130px;
+    height: 20px;
+    border-radius: 0 0 25px 25px;
+    left: calc(50% - 65px);
+    position: absolute;
+}
+
+.iphone-container .iphone-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0 15px;
+}
+
+.iphone-container .iphone-header svg {
+    width: 40px;
+    height: 40px;
+    color: var(--dark-letter);
+}
+
+.iphone-container .iphone-header h1 {
+    font-weight: 300;
+    margin-top: 15px;
+    font-size: 52px;
+}
+
+.iphone-container .iphone-header h2 {
+    letter-spacing: 4px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.iphone-container .iphone-header p {
+    letter-spacing: 3px;
+    font-size: 12px;
+    margin: 0;
+    color: #7e7e7e;
+}
+
+
+.iphone-container .iphone-week-weather {
+    display: flex;   
+    justify-content: space-evenly;
+}
+
+.iphone-container .iphone-temperature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iphone-container .iphone-temperature svg {
+    width: 20px;
+    height: 20px;
+}
+
+.iphone-container .iphone-temperature .weekday {
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.iphone-container .iphone-temperature .temperature {
+    font-size: 12px;
+}
+
+.iphone-container .weather-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0 0;
+    }
+
+.iphone-container .iphone-notch {
+    background-color:#d1d1d8;
+    width: 90px;
+    height: 2px;
+    border-radius: 0 0 40px;
+    left: calc(50% - 45px);
+    position: absolute;
+    bottom: 15px;
+}
