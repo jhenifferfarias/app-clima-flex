@@ -2,6 +2,7 @@
 ## Praticando o Flexbox
 
 Essa aplicação foi criada com o objetivo de criar um layout simples usando flexbox, para estudos de HTML e CSS.
+Nesse trabalho, até o layout do celular foi criado usando o HTML E CSS.
 
 ![Imagem do trabalho pronto](https://github.com/jhenifferfarias/app-clima-flex/blob/main/assets/layout.png?raw=true)
 
